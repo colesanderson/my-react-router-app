@@ -6,7 +6,8 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "wrangler dev",
-    "typecheck": "react-router typegen && tsc"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
     "@react-router/node": "^7.0.2",
