@@ -33,7 +33,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: 25d8107a7f9e43c34872d0da452ebb4e
           projectName: my-react-router-app
           directory: build
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
